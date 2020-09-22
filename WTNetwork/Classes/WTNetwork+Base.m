@@ -207,6 +207,11 @@
         NSLog(@"请求失败 \nmethod: %@ \nurl: %@ \n\nparameter: \n%@ \n\nerror: %@", method, urlString, parameter, error);
         return;
     }
+    NSMutableDictionary *param = [NSMutableDictionary dictionary];
+    for (NSString *key in parameter.allKeys) {
+        [param setObject:[parameter[key] wtnet_URLEncoded] forKey:key];
+    }
+    parameter = param.copy;
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NSString *requestURLString = urlString;
         if (self.delegate && [self.delegate respondsToSelector:@selector(wtnet_willRequestURLString:)]) {
