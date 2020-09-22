@@ -1,0 +1,16 @@
+PODS:
+  - WTNetwork (1.0.0)
+
+DEPENDENCIES:
+  - WTNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  WTNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WTNetwork: 8d72d815016bbf5321b359f38e996e0ad45c878b
+
+PODFILE CHECKSUM: da67fc3c98d9c539645fd87035f059a2f6ca9961
+
+COCOAPODS: 1.9.3
