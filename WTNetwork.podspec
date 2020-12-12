@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WTNetwork'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of WTNetwork.'
 
 # This description is used to generate tags and improve search results.
@@ -24,13 +24,13 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/weijiewen/WTNetwork'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'txywjw@icloud.com' => 'txywjw@icloud.com' }
+  s.author           = { 'weijiewen' => 'txywjw@icloud.com' }
   s.source           = { :git => 'https://github.com/weijiewen/WTNetwork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-  s.vendored_frameworks = 'Example/Framework/WTNetworking.framework'
-  #s.source_files = 'lib/Classes/**/*'
+  s.ios.deployment_target = '9.0'
+  #s.vendored_frameworks = 'Example/Framework/WTNetworking.framework'
+  s.source_files = 'WTNetwork/Classes/**/*'
   
   # s.resource_bundles = {
   #   'WTNetwork' => ['WTNetwork/Assets/*.png']
