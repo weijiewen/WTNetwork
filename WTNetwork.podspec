@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WTNetwork'
-  s.version          = '1.0.2'
-  s.summary          = 'A short description of WTNetwork.'
+  s.version          = '1.0.3'
+  s.summary          = '苍茫的天涯是我的爱绵绵的青山脚下花正开什么样的节奏是最呀最摇摆什么样的歌声才是最开怀'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+苍茫的天涯是我的爱
+绵绵的青山脚下花正开
+什么样的节奏是最呀最摇摆
+什么样的歌声才是最开怀
+弯弯的河水从天上来
+流向那万紫千红一片海
+哗啦啦的歌谣是我们的期待
+一路边走边唱才是最自在
+我们要唱就要唱得最痛快
                        DESC
 
   s.homepage         = 'https://github.com/weijiewen/WTNetwork'
